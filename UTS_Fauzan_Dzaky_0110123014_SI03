@@ -1,0 +1,18 @@
+ket = '''Selamat datang di aplikasi menghitung luas bangun datar 
+masukan pilihan
+1. untuk menghitung luas trapesium
+2. untuk menghitung keliling trapesium'''
+
+pilih = input(ket)
+
+match pilih:
+    case '1':
+        print('kamu milih 1 untuk menghitung luas trapesium')
+        sisi = int(input('masukan angkanya'))
+        luasT = 0.5*(a + b)*h
+        print('luas trapesium yang sisinya', sisi, 'adalah', luasT)
+
+# UTS Kalkulator
+
+
+        
